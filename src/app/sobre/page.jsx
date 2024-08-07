@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 
 export default function Sobre() {
   return (
-    <div className='container'>
+    <div className='containerGlobal'>
       <div className={styles.containerTitulo}>
         <h1 className={styles.txtTitulo}>Sobre</h1>
       </div>

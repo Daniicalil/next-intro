@@ -57,8 +57,7 @@ html {
 
 body {
 	display: flex;
-	flex-direction: column;
-	align-items: center;
+	justify-content: center;
 	font-size: 1.6rem;
 	/* margin: 2rem; */
 	font-family: "Poppins", sans-serif;
@@ -66,13 +65,14 @@ body {
 	font-style: normal;
 }
 
-.container {
+.containerGlobal {
 	/* border: 0.5rem solid #f00; */
 	display: flex;
-	width: 100%;
-	max-width: 124rem;
+	width: 98%;
+	max-width: 112.8rem;
+	padding-top: 1rem;
+	padding-bottom: 2rem;
 	flex-direction: column;
-	align-items: center;
 }
 
 a {
@@ -80,7 +80,29 @@ a {
 }
 
 h1 {
-	font-size: 2.4rem;
-	font-weight: bold;
+	font-size: 3.2rem;
 	margin: 1rem;
+}
+
+h2 {
+	font-size: 2.8rem;
+	margin: 0.6rem;
+}
+
+h3 {
+	font-size: 1.6rem;
+	margin: 0.3rem;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 960px) {
+	html {
+		font-size: 50%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	html {
+		font-size: 37.2%;
+	}
 }

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function cadastro() {
   return (
-    <div className='container'>
+    <div className='containerGlobal'>
       <div>
         <h1>Cadastro de usuário</h1>
       </div>
