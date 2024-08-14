@@ -75,6 +75,11 @@ body {
 	flex-direction: column;
 }
 
+.layout {
+	width: 100%;
+	max-width: 112.8rem;
+}
+
 a {
 	text-decoration: none;
 }
